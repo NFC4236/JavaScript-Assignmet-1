@@ -93,5 +93,18 @@ for (let a = 1; a < 100 ; a++) {
     
 }
 
+//***********Seven Program*****************/
+let newLineString='';
+for (let i = 1; i <= 6; i++) {
+     
+    for (let j = 1; j <= i; j++) {
+      newLineString+="*";
+    }
+    newLineString+='\n';
+   
+}
+
+console.log(newLineString);
+
 
 
