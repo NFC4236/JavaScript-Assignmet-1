@@ -24,3 +24,31 @@ for (let a = 0; a <= 15; a++) {
     
 }
 
+//******************** Five Program ***********************/
+let gradeMarks = +prompt("Enter Grade Marks");
+
+if (gradeMarks<100 && gradeMarks>=90) 
+{
+    console.log("Grade A");
+} 
+
+else if (gradeMarks<90  && gradeMarks>=80) 
+{
+    console.log("Grade B");
+} 
+
+else if (gradeMarks<80  && gradeMarks>=70) 
+{
+    console.log("Grade C");
+} 
+
+else if (gradeMarks<70  && gradeMarks>=60) 
+{
+    console.log("Grade D");
+} 
+ 
+else if(gradeMarks<60 ){
+    console.log("Grade F");
+}
+
+
