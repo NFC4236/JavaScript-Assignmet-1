@@ -76,4 +76,22 @@ else if(gradeMarks<60 ){
     console.log("Grade F");
 }
 
+//**********************Six Program****************
+
+for (let a = 1; a < 100 ; a++) {
+    if (a %3 === 0) {
+        
+        console.log("Fizz :" +a);
+    } 
+
+    if (a%5 === 0) {
+        console.log("Buzz : "+a);
+    }
+    if(a%3 !==0 && a%5 !==0) {
+        console.log("FizzBuzz :" +a);
+    }
+    
+}
+
+
 
