@@ -10,6 +10,17 @@ if (Number(num1)>Number(num2)) {
 else  {
     alert("Second Number is Large :"+Number(num2));
 }
+
+//***************2nd Program*******************/
+
+let findValueSign = +prompt("Enter Number");
+
+if (findValueSign >= 1) {
+    alert("The Sign is +");
+    } 
+else if(findValueSign <= -1 ) {
+    alert("The Sign is -");
+}
 //******************3rd Program*************************
 
 let value1 =+prompt("Enter No 1st ");
